@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dni do wydarzenia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Kalkulator dni do egzaminów</h1>
+
+        <form id="form">
+
+            <label for="events">Wybierz wydarzenie</label>
+            <select name="events" id="select">
+            </select>
+
+            <div id="calendar">
+                <label for="date">Wybierz datę</label>
+                <input type="date" id="selectDate">
+            </div>
+            
+        </form>
+
+        <div class="btns">
+            <button id="btn-today">Dni do dziś</button>
+            <button id="btn-calendar">Kalendarz</button>
+        </div>
+
+        <div id="amount"></div>
+
+        <div id="copy">&copy; Skulimowski Kacper klasa 4i, dnia 07.11.2025 &copy;</div>
+
+    </div>
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>

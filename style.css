@@ -1,0 +1,64 @@
+* {
+    margin: 10px;
+    padding: 2px;
+}
+
+body {
+    background-color: rgb(0, 100, 67);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container, form, #calendar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(177, 177, 177);
+    border-radius: 40px;
+    width: 60vw;
+    height: auto;
+    justify-self: center;
+}
+
+.container h1 {
+    font-size: 300%;
+    color: rgb(0, 0, 124);
+}
+
+button {
+    background-color: rgb(0, 0, 124);
+    color: white;
+    border: 0;
+    border-radius: 20px;
+    padding: 6px;
+    width: 25vw;
+    height: 5vh;
+    font-size: larger;
+}
+
+select, #selectDate {
+    width: 90%;
+    font-size: 140%;
+    border-radius: 20px;
+    justify-self: center;
+    align-self: center;
+}
+
+label {
+    align-self: flex-start;
+    justify-self: flex-start;
+    font-size: 150%;
+}
+
+#amount {
+    color: maroon;
+    font-size: 200%;
+}
+
+#calendar {
+    display: none;
+}
+
+#copy {
+    color: blue;
+}
